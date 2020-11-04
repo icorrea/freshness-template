@@ -22,5 +22,5 @@ Demo:
 https://raelcorrea.net/demos/freshness/
 
 ## Créditos
-O PSD utilizado para desenolver este template:
+O PSD utilizado para desenvolver este template:
 https://www.os-templates.com/free-psd-templates/freshness
