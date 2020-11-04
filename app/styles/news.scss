@@ -1,0 +1,36 @@
+@import "variables";
+.news {
+  cite {
+    font-size: 22px;
+    color: $silver1-color;
+    max-width: 716px;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .news__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    img {
+      width: 80px;
+      height: 80px;
+      border: 1px solid $silver3-color;
+      padding: 5px;
+    }
+    .news__itemBody {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+    }
+    h5 {
+      display: block;
+      font-size: 12px;
+      color: $ocean-color;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}

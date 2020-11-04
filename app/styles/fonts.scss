@@ -1,0 +1,28 @@
+@import 'variables.scss';
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('#{$webfont-ptSerifPath}/PTSerif-Bold.eot');
+    src: url('#{$webfont-ptSerifPath}/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$webfont-ptSerifPath}/PTSerif-Bold.woff2') format('woff2'),
+        url('#{$webfont-ptSerifPath}/PTSerif-Bold.woff') format('woff'),
+        url('#{$webfont-ptSerifPath}/PTSerif-Bold.ttf') format('truetype'),
+        url('#{$webfont-ptSerifPath}/PTSerif-Bold.svg#PTSerif-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('#{$webfont-ptSerifPath}/PTSerif-Regular.eot');
+    src: url('#{$webfont-ptSerifPath}/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('#{$webfont-ptSerifPath}/PTSerif-Regular.woff2') format('woff2'),
+        url('#{$webfont-ptSerifPath}/PTSerif-Regular.woff') format('woff'),
+        url('#{$webfont-ptSerifPath}/PTSerif-Regular.ttf') format('truetype'),
+        url('#{$webfont-ptSerifPath}/PTSerif-Regular.svg#PTSerif-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

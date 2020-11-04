@@ -1,0 +1,17 @@
+@import 'fonts';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import '../../node_modules/owl.carousel/src/scss/owl.carousel.scss';
+@import '../../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+
+@import 'topbar';
+@import 'banner';
+@import 'highlights';
+@import 'news';
+@import 'footer';
+body{
+  font-family: 'PT Serif', Georgia, Serif;
+}

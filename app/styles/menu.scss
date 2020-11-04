@@ -1,0 +1,60 @@
+@import "variables";
+.topbar__menu {
+  margin-top: 30px;
+  .topbar__menuBloco {
+    padding: 0;
+    list-style: 0;
+  }
+  .topbar__menuItem {
+    display: inline-block;
+    margin: 0 9px;
+    a {
+      text-transform: uppercase;
+      font-size: 12px;
+      text-decoration: none;
+      color: $silver2-color;
+      transition: linear 0.3s;
+      font-weight: 400;
+    }
+    a:hover {
+      color: $ocean-color;
+    }
+  }
+}
+.topbar__menuHambuger {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .topbar__menu {
+    opacity: 0;
+    position: absolute;
+    background: $ocean-color;
+    left: 0;
+    top: 37px;
+    width: 100%;
+    z-index: -1;
+    transition: opacity linear 0.3s;
+    .topbar__menuItem {
+      display: block;
+      padding: 10px 0;
+      a {
+        color: $white-color;
+      }
+    }
+  }
+  .topbar__menu.open {
+    opacity: 1;
+    z-index: 2;
+  }
+  .topbar__menuHambuger {
+    position: absolute;
+    right: 15px;
+    border: none;
+    background: $white-color;
+    top: 16px;
+    font-size: 24px;
+    outline: none;
+    display: block;
+  }
+}

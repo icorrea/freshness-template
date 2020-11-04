@@ -1,0 +1,79 @@
+@import "variables";
+.footer {
+  background: $dark3-color;
+  color: $white-color;
+  padding-top: 40px;
+  .footer__title {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+    line-height: 20px;
+    color: $silver2-color;
+    strong {
+      font-weight: bold;
+      font-size: 13px;
+    }
+    span {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+
+  .footer__link {
+    color: $ocean-color;
+    transition: linear 0.3s;
+    &:hover {
+      color: $orange-color;
+      text-decoration: none;
+    }
+  }
+
+  .footer__nav {
+    list-style: none;
+    padding: 0;
+    .footer__navItem {
+      border-bottom: 1px solid $dark2-color;
+      padding: 5px 0;
+    }
+  }
+  .footer__newsletter {
+    input[type="text"] {
+      background: $dark2-color;
+      color: $white-color;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      margin-bottom: 15px;
+      outline: none;
+    }
+
+    button {
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      color: $white-color;
+      background: $ocean-color;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: linear 0.3s;
+    }
+
+    button:hover {
+      background: $orange-color;
+    }
+  }
+
+  .footer__copyTermo {
+    background: $dark1-color;
+    padding: 25px 0;
+    margin: 25px 0 0;
+    p {
+      font-size: 12px;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import "variables";
+.highlights {
+  margin-top: 50px;
+  .container {
+    border-bottom: 1px solid $silver3-color;
+    padding-bottom: 25px;
+  }
+  .highlights__item {
+    margin: 0 auto 25px;
+  }
+  .highlights__itemTumbnail {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .highlights__itemTitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $silver1-color;
+  }
+  .highlights__itemText {
+    color: $silver2-color;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .highlights__itemButton {
+    background: $ocean-color;
+    color: $white-color;
+    font-size: 13px;
+    width: 120px;
+    display: block;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: linear 0.3s;
+    text-decoration: none;
+    &:hover {
+      background: $orange-color;
+      color: $white-color;
+      text-decoration: none;
+    }
+  }
+}

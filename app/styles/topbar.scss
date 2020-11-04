@@ -1,0 +1,29 @@
+@import "variables";
+
+.topbar {
+  border-top: 5px solid $ocean-color;
+  height: 140px;
+  margin-bottom: 50px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container:last-child {
+    border-bottom: 1px solid $silver3-color;
+  }
+}
+
+@media (max-width: 960px) {
+  .topbar {
+    height: auto;
+    .container {
+      display: block;
+    }
+  }
+}
+
+@import "socialMenu.scss";
+@import "search.scss";
+@import "brand.scss";
+@import "menu.scss";
