@@ -5,11 +5,17 @@ Este é apenas um template de teste que utilizei para estudar e me manter atuali
 Para o desenvolvimento deste projeto foram utilizado os seguintes frameworks e tecnologias:
 
 . Visual Studio Code
+
 . Sass
+
 . jQuery
+
 . Bootstrap
+
 . OwlCarousel
+
 . Html5
+
 . Photoshop
 
 Demo:
